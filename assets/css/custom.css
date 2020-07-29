@@ -1,0 +1,6 @@
+#symfony {
+  width: 100%;
+  height: 100vh;
+  background: url("https://symfony.com/images/logos/header-logo.svg") top center;
+  background-size: cover;
+}
