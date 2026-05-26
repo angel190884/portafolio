@@ -1,6 +1,164 @@
-#symfony {
-  width: 100%;
-  height: 100vh;
-  background: url("https://symfony.com/images/logos/header-logo.svg") top center;
+/* ==========================================================================
+   Custom Overrides — Angel Peregrino Portfolio
+   Professional & AI-focused styling
+   ========================================================================== */
+
+/* ---- Hero Background ---- */
+#hero {
+  background: url("../img/57083fbc-f116-4fba-a46a-4786d7362098.png") top right;
   background-size: cover;
+  justify-content: flex-start !important;
+  padding-top: 80px;
+}
+
+#hero h1 {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+#hero p {
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* ---- Section Titles ---- */
+.section-title h2 {
+  letter-spacing: 1px;
+}
+
+.section-title p {
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---- AI Focus Section ---- */
+#ai-focus .icon-box {
+  border-bottom: 3px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+#ai-focus .icon-box:hover {
+  border-bottom-color: #149ddd;
+}
+
+#ai-focus .icon i {
+  font-size: 36px;
+  color: #149ddd;
+}
+
+#ai-focus .title {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* ---- Skills Section ---- */
+.skills-category {
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #149ddd;
+  margin-bottom: 16px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+#skills .progress {
+  margin-bottom: 8px;
+}
+
+#skills .skill {
+  font-size: 14px;
+  font-weight: 500;
+  color: #333;
+}
+
+#skills .skill i {
+  color: #149ddd;
+  font-size: 16px;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+}
+
+#skills .skill i.bx {
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+#skills .skill small {
+  color: #777;
+  font-weight: 400;
+}
+
+/* ---- Resume Section ---- */
+.resume .resume-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #050d18;
+  margin-bottom: 16px;
+}
+
+.resume .resume-item h4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.resume .resume-item ul li {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ---- About Section ---- */
+#about .about-profile-img {
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  border: 3px solid rgba(20, 157, 221, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#about .about-profile-img:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 40px rgba(20, 157, 221, 0.25);
+}
+
+#about .content h3 {
+  font-weight: 700;
+  font-size: 22px;
+  color: #050d18;
+}
+
+#about .font-italic {
+  font-size: 14px;
+  color: #555;
+  border-left: 3px solid #149ddd;
+  padding-left: 12px;
+  margin-bottom: 20px;
+}
+
+/* ---- Footer ---- */
+#footer .credits {
+  font-size: 13px;
+  color: #aaa;
+  letter-spacing: 0.5px;
+}
+
+/* ---- General Polish ---- */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+}
+
+a {
+  transition: color 0.2s ease;
+}
+
+/* ---- Responsive adjustments ---- */
+@media (max-width: 768px) {
+  #ai-focus .icon-box {
+    margin-bottom: 20px;
+  }
+
+  .skills-category {
+    margin-top: 20px;
+  }
 }
